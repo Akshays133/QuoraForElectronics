@@ -8,8 +8,8 @@ const Hero = () => {
     <Wrapper>
       <div>
         <h1 className={styles.title}>
-          <span className={styles.nextjs}>Next.js</span>
-          <span className={styles.mongodb}>MongoDB</span>
+          <span className={styles.nextjs}>Quora For</span>
+          <span className={styles.mongodb}>Electronics</span>
           <span>App</span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
@@ -21,7 +21,7 @@ const Hero = () => {
           <Spacer axis="horizontal" size={1} />
           <Container>
             <ButtonLink
-              href="https://github.com/hoangvvo/nextjs-mongodb-app"
+              href="https://github.com/Akshays133/QuoraForElectronics"
               type="secondary"
               className={styles.button}
             >
@@ -30,8 +30,8 @@ const Hero = () => {
           </Container>
         </Container>
         <p className={styles.subtitle}>
-          A Next.js and MongoDB web application, designed with simplicity for
-          learning and real-world applicability in mind.
+        QuoraForElectronics is a place to gain and share knowledge. 
+        It's a platform to ask questions and connect with people who contribute unique insights and quality answers.
         </p>
       </div>
     </Wrapper>
