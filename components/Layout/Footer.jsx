@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Text, TextLink } from '@/components/Text';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 import styles from './Footer.module.css';
@@ -9,12 +10,25 @@ const Footer = () => {
     <footer className={styles.footer}>
       <Wrapper>
         <Text color="accents-7">
-          Made with ❤️, 🔥, and a keyboard by{' '}
+          Made with ❤️, 🔥, and By {' '}
           <TextLink
             href="https://github.com/Akshays133/QuoraForElectronics"
             color="link"
           >
-            Final Project
+            Agrit Tiwari
+          </TextLink>
+          {'  '}
+          <TextLink
+            href="https://github.com/Akshays133/QuoraForElectronics"
+            color="link"
+          >
+            Akshay Sharma
+          </TextLink>{'  '}
+          <TextLink
+            href="https://github.com/Akshays133/QuoraForElectronics"
+            color="link"
+          >
+            Shekher
           </TextLink>
           .
         </Text>

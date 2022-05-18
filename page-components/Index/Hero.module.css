@@ -1,9 +1,9 @@
 .title {
-  font-size: 8rem;
+  font-size: 2rem;
   text-align: center;
   font-weight: 800;
-  line-height: 1.1;
-  margin: 24px 0 64px;
+  line-height: 1.5;
+  margin: 24px 0 27px;
 }
 
 .title > span {
@@ -45,5 +45,42 @@
   font-weight: 400;
   font-size: 1.25rem;
   text-align: center;
-  margin: 8px 0 64px;
+  margin: 25px 0 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  min-width: 1px;
+  max-width: 100%;
+}
+.feedbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+.ecepng {
+  background-color: #FFFFFF;
+  border-radius: 3%;
+}
+
+.community {
+  margin: auto 0;
+}
+
+.logoece {
+  border-radius: 10%;
+}
+
+.wrapper {
+  margin: 15px auto;
+  padding: 0 24px;
+  max-width: 100%;
+  width: 1248px;
 }
